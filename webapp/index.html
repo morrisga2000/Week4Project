@@ -1,34 +1,290 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-<meta charset="ISO-8859-1">
-<title>Zoo Exhibits</title>
-      <link rel="stylesheet" href="styles.css" />
-   </head>
 
-   <body>
-<header>
-	<h1>Greg's Zoo of Incredible Creatures</h1>
-</header>
-<main> 
-<table style="width:100%">
-  <tr>
-    <th>Animal_id</th>
-    <th>Species</th>
-    <th>Type_of_Cage</th>
-    <th>Food</th>
-    <th>Name</th>
-	 <th>Weight</th>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-  </tr>
+    <title>Zoo of Wondrous Animals</title>
 
-</main>
-<aside>
-	
-</aside>
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-<footer>
-	
-</footer>
+    <!-- Custom CSS -->
+    <link href="css/business-frontpage.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Zoo</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Services</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Image Background Page Header -->
+    <!-- Note: The background image is set within the business-casual.css file. -->
+    <header class="business-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="tagline">Greg's Zoo of Incredible Animals</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <hr>
+
+        <div class="row">
+            <div class="col-sm-8">
+                <h2>Current List of Animals</h2>
+                
+            </div>
+
+
+            
+        </div>
+        <!-- /.row -->
+<div class="table-responsive">
+  <table class="table">
+<tr class="text-capitalize"> 
+<th><strong><u>ID#</u></strong></th>
+<th><strong><u>Animal Species</u></strong></th>
+<th><strong><u>Animal Name</u></strong></th>
+<th><strong><u>Enclosure Habitat</u></strong></th>
+<th><strong><u>Food</u></strong></th>
+<th><strong><u>Weight</u></strong></th>
+ </tr>
+
+ <tr>
+ 	<td>01</td>
+ 		<td>gorilla</td>
+ 			<td>Harambe</td>
+ 				<td>ape forest</td>
+ 					<td>vegetation and fruit</td>
+ 					<td>800.25</td>
+ </tr>
+ <tr>
+ 	<td>02</td>
+ 		<td>lion</td>
+ 			<td>Zimba</td>
+ 				<td>feline prairie</td>
+ 					<td>ungulates</td>
+ 					<td>525.00</td>
+ </tr>
+ <tr>
+ 	<td>03</td>
+ 		<td>warthog</td>
+ 			<td>Razorback</td>
+ 				<td>mudpit</td>
+ 					<td>invertebrates</td>
+ 					<td>222.24</td>
+ </tr>
+ <tr>
+ 	<td>04</td>
+ 		<td>giraffe</td>
+ 			<td>Joe</td>
+ 				<td>savanna</td>
+ 					<td>vegetation</td>
+ 					<td>765.00</td>
+ </tr>
+ <tr>
+ 	<td>05</td>
+ 		<td>hyena</td>
+ 			<td>Whoopi</td>
+ 				<td>savanna</td>
+ 					<td>antelope</td>
+ 					<td>155.05</td>
+ </tr>
+ <tr>
+ 	<td>06</td>
+ 		<td>meerkat</td>
+ 			<td>Sampien</td>
+ 				<td>burrow-mound</td>
+ 					<td>invertebrates and snakes</td>
+ 					<td>40.33</td>
+ </tr>
+ <tr>
+ 	<td>07</td>
+ 		<td>tiger</td>
+ 			<td>Bengal</td>
+ 				<td>feline prairie</td>
+ 					<td>meat</td>
+ 					<td>407.80</td>
+ </tr>
+ <tr>
+ 	<td>08</td>
+ 		<td>elephant</td>
+ 			<td>Dumbo</td>
+ 				<td>savanna</td>
+ 					<td>vegeation</td>
+ 					<td>9999.90</td>
+ </tr>
+ <tr>
+ 	<td>09</td>
+ 		<td>ostrich</td>
+ 			<td>Flash</td>
+ 				<td>savanna</td>
+ 					<td>fruits and seed</td>
+ 					<td>250.20</td>
+ </tr>
+ <tr>
+ 	<td>10</td>
+ 		<td>hippopotamus</td>
+ 			<td>Fergie</td>
+ 				<td>marsh</td>
+ 					<td>vegetation</td>
+ 					<td>3400.80</td>
+ </tr>
+  </table>
+</div>
+        <hr>
+
+        <div class="row">
+            <div class="col-sm-4">
+                <img class="img-circle img-responsive img-center" src="images/glossy-green-orb-icon-alphanumeric-plus-sign.png" alt="">
+                <h2>Add Animal to Database</h2>
+                <p>Select this option in order to ADD a new animal to the zoo's database.</p>
+            </div>
+            <div class="col-sm-4">
+                <img class="img-circle img-responsive img-center" src="images/delete_sign.jpg" alt="">
+                <h2>Delete Animal from Database</h2>
+                <p>Select this option in order to DELETE an animal from the zoo's database.</p>
+            </div>
+            <div class="col-sm-4">
+                <img class="img-circle img-responsive img-center" src="images/canstockupdate.jpg" alt="">
+                <h2>Update Database</h2>
+                <p>Select and use this option in order to update or alter the characteristics of an existing animal in the zoo.</p>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <hr>
+<form class="form-horizontal">
+  <div class="form-group has-success has-feedback">
+    <label class="control-label col-sm-3" for="inputSuccess3">Animal ID</label>
+     <div class="col-sm-10">
+      <input class="form-control" type="text" id="formGroupInputSmall" placeholder="ID #" id="inputSuccess3" aria-describedby="inputSuccess3Status">
+      <span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
+      <span id="inputSuccess3Status" class="sr-only">(success)</span>
+    </div>
+  </div>
+  </form>
+<form class="form-horizontal">
+  <div class="form-group has-success has-feedback">
+    <label class="control-label col-sm-3" for="inputSuccess3">Animal Species</label>
+     <div class="col-sm-10">
+      <input class="form-control" type="text" id="formGroupInputSmall" placeholder="Animal Species" id="inputSuccess3" aria-describedby="inputSuccess3Status">
+      <span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
+      <span id="inputSuccess3Status" class="sr-only">(success)</span>
+    </div>
+  </div>
+  </form>
+  <form class="form-horizontal">
+  <div class="form-group has-success has-feedback">
+    <label class="control-label col-sm-3" for="inputSuccess3">Enclosure Habitat</label>
+     <div class="col-sm-10">
+      <input class="form-control" type="text" id="formGroupInputSmall" id="inputSuccess3" aria-describedby="inputSuccess3Status" placeholder="Type of Cage">
+      <span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
+      <span id="inputSuccess3Status" class="sr-only">(success)</span>
+    </div>
+  </div>
+  </form>
+  <form class="form-horizontal">
+  <div class="form-group has-success has-feedback">
+    <label class="control-label col-sm-3" for="inputSuccess3">Food</label>
+     <div class="col-sm-10">
+      <input class="form-control" type="text" id="formGroupInputSmall" placeholder="Diet Source" id="inputSuccess3" aria-describedby="inputSuccess3Status">
+      <span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
+      <span id="inputSuccess3Status" class="sr-only">(success)</span>
+    </div>
+  </div>
+  </form>
+  <form class="form-horizontal">
+  <div class="form-group has-success has-feedback">
+    <label class="control-label col-sm-3" for="inputSuccess3">Weight</label>
+     <div class="col-sm-10">
+      <input class="form-control" id="formGroupInputSmall" placeholder="Mass of Animal" type="text"  id="inputSuccess3" aria-describedby="inputSuccess3Status">
+      <span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
+      <span id="inputSuccess3Status" class="sr-only">(success)</span>
+    </div>
+  </div>
+
+  <button type="button" class="btn btn-primary">Submit</button>
+  </form>
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+
+            </div>
+            <!-- /.row -->
+            <div class="col-sm-4">
+                <h2>Contact Us</h2>
+                <address>
+                    <strong>Zoo of Wondrous Animals</strong>
+                    <br>3481 Zootopia Lane
+                    <br>Wooodlawn, MD 21204
+                    <br>
+                </address>
+                <address>
+                    <abbr title="Phone">P:</abbr>(443) 979-5025
+                    <br>
+                    <abbr title="Email">E:</abbr> <a href="mailto:#">morrisga2000@yahoo.com</a>
+                </address>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
 </body>
+
 </html>
